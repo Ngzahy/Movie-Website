@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../vendor/boostrap/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <nav class="navbar navbar-expand-lg navbar-light nav-conter">
+                <a class="navbar-brand " href="#"><img class="navbar-brand-img" src="../image/icons/ncc.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto navbar-ul">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="./index.html">Trang chủ <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="./lichChieu.html">Lịch chiếu <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="#">Tin tức <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="#">Khuyến mãi <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="#">Giá vé <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="#">Liên hoan phim <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-white" href="#">Giới thiệu <span
+                                    class="visually-hidden">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex pl-3">
+                    <button
+                        class="btn btn-outline-light rounded-pill text-sm fw-medium border-white py-2 px-4 btn-custom-hover"
+                        type="submit">Đăng ký</button>
+                    <button class="btn btn-danger rounded-pill text-sm fw-medium py-2 px-4 btn-custom-hover-dn"
+                        type="submit">Đăng
+                        nhập</button>
+                </div>
+            </nav>
+        </div>
+        <div class="container my-5">
+            <div class="day-filter text-center mb-4">
+                <div class="day-filter-header d-flex align-items-center justify-content-center mb-4 gap-2">
+                    <div class="rounded-pill bg-danger tron"></div>
+                    <h4 class="text-light fw-bold">Phim đang chiếu</h4>
+                </div>
+                <button class="btn mx-2">17/10/2024</button>
+                <button class="btn mx-2">18/10/2024</button>
+                <button class="btn mx-2">19/10/2024</button>
+                <button class="btn mx-2">31/10/2024</button>
+            </div>
+            <p class="text-center color-text-mix">
+                Lưu ý: Khán giả dưới 13 tuổi chỉ chọn suất chiếu kết thúc trước 22h và
+                khán giả dưới 16 tuổi chỉ chọn suất chiếu kết thúc trước 23h.
+            </p>
+            <div class="phim-list row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+                <div class="col">
+                    <a class="phim-card d-flex align-items-start overflow-hidden text-decoration-none text-light"
+                        href="../html/chitiet.html">
+                        <div class="hinhAnh me-3">
+                            <img src="../image/co-dau-hao-mon.jpg" alt="Cô Dâu Hào Môn" />
+                        </div>
+                        <div class="phim-info pt-3 pb-3 lh-sm">
+                            <div class="phim-genre d-flex">
+                                <p class="me-lg-4">Tâm lý, tình cảm</p>
+                                <p>144p</p>
+                            </div>
+                            <div
+                                class="position-absolute top-2 end-2 border border-secondary rounded-1 px-2 py-1 text-muted fw-semibold custom-label">
+                                2D
+                            </div>
+                            <h5 class="ten-phim phim-title">CÔ DÂU HÀO MÔN - T18</h5>
+                            <p>Xuất xứ: Việt Nam</p>
+                            <p>Khởi chiếu: 18/10/2024</p>
+                            <p class="phim-age text-danger">
+                                T18 - Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên
+                                (18+)
+                            </p>
+                            <div class="mt-3 phim-showtimes lich">
+                                <p class="text-sm font-semibold d-none d-md-block ">Lịch chiếu</p>
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    <button class="btn btn-outline-light btn-movie">21:05</button>
+                                    <button class="btn btn-outline-light btn-movie">21:35</button>
+                                    <button class="btn btn-outline-light btn-movie">22:05</button>
+                                    <button class="btn btn-outline-light btn-movie">23:10</button>
+                                    <button class="btn btn-outline-light btn-movie">23:20</button>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col">
+                    <div class="phim-card d-flex align-items-start overflow-hidden">
+                        <div class="hinhAnh me-3">
+                            <img src="../image/quy-an-tang_2.jpg" alt="Quỷ ăn tạng" />
+                        </div>
+                        <div class="phim-info pt-3 pb-3 lh-sm">
+                            <div class="phim-genre d-flex">
+                                <p class="me-lg-4">Kinh dị</p>
+                                <p>111p</p>
+                            </div>
+                            <div
+                                class="position-absolute top-2 end-2 border border-secondary rounded-1 px-2 py-1 text-muted fw-semibold custom-label">
+                                2D
+                            </div>
+                            <h5 class="ten-phim phim-title">TEE YOD: QUỶ ĂN TẠNG PHẦN 2-T18</h5>
+                            <p>Xuất xứ: Thái Lan </p>
+                            <p>Khởi chiếu: 18/10/2024</p>
+                            <p class="phim-age text-danger">
+                                T18 - Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên
+                                (18+)
+                            </p>
+                            <div class="mt-3 phim-showtimes lich">
+                                <p class="text-sm font-semibold d-none d-md-block ">Lịch chiếu</p>
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    <button class="btn btn-outline-light btn-movie">21:15</button>
+                                    <button class="btn btn-outline-light btn-movie">22:15</button>
+                                    <button class="btn btn-outline-light btn-movie">23:15</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="phim-card d-flex align-items-start overflow-hidden">
+                        <div class="hinhAnh me-3">
+                            <img src="../image/docer.jpg" alt="Dốc cơ" />
+                        </div>
+                        <div class="phim-info pt-3 pb-3 lh-sm">
+                            <div class="phim-genre d-lg-grid">
+                                <p class="">Kinh dị, Tâm lý, tình cảm, Nhạc kịch</p>
+                                <p class="">135 phút</p>
+                            </div>
+                            <div
+                                class="position-absolute top-2 end-2 border border-secondary rounded-1 px-2 py-1 text-muted fw-semibold custom-label">
+                                2D
+                            </div>
+                            <h5 class="ten-phim phim-title">JOKER: FOLIE À DEUX ĐIÊN CÓ ĐÔI-T18</h5>
+                            <p>Xuất xứ: Mỹ (Tho)</p>
+                            <p>Khởi chiếu: 04/10/2024</p>
+                            <p class="phim-age text-danger">
+                                T18 - Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên
+                                (18+)
+                            </p>
+                            <div class="mt-3 phim-showtimes lich">
+                                <p class="text-sm font-semibold d-none d-md-block ">Lịch chiếu</p>
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    <button class="btn btn-outline-light btn-movie">21:05</button>
+                                    <button class="btn btn-outline-light btn-movie">21:35</button>
+                                    <button class="btn btn-outline-light btn-movie">22:05</button>
+                                    <button class="btn btn-outline-light btn-movie">23:10</button>
+                                    <button class="btn btn-outline-light btn-movie">23:20</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="phim-card d-flex align-items-start overflow-hidden">
+                        <div class="hinhAnh me-3">
+                            <img src="../image/domDom_jack_0.jpg" alt="Cô Dâu Hào Môn" />
+                        </div>
+                        <div class="phim-info pt-3 pb-3 lh-sm">
+                            <div class="phim-genre d-flex">
+                                <p class="me-lg-4"></p>
+                                <p>89 phút</p>
+                            </div>
+                            <div
+                                class="position-absolute top-2 end-2 border border-secondary rounded-1 px-2 py-1 text-muted fw-semibold custom-label">
+                                2D
+                            </div>
+                            <h5 class="ten-phim phim-title">MỘ ĐOM ĐÓM-K ( Phụ đề )</h5>
+                            <p>Xuất xứ: Nhật bản</p>
+                            <p>Khởi chiếu: 04/10/2024</p>
+                            <p class="phim-age text-danger">
+                                T18 - Phim được phổ biến đến người xem từ đủ 18 tuổi trở lên
+                                (18+)
+                            </p>
+                            <div class="mt-3 phim-showtimes lich">
+                                <p class="text-sm font-semibold d-none d-md-block ">Lịch chiếu</p>
+                                <div class="d-flex flex-wrap gap-2 mt-2">
+                                    <button class="btn btn-outline-light btn-movie">21:30</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer text-white footer-background">
+            <div class="container text-center">
+                <div class="row mb-3 ">
+                    <div class="col-12 mt-4 ">
+                        <ul class="list-inline navbar-ul">
+                            <li class="list-inline-item mx-4"><a href="#">Chính sách</a></li>
+                            <li class="list-inline-item mx-4"><a href="#">Lịch chiếu</a></li>
+                            <li class="list-inline-item mx-4"><a href="#">Tin tức</a></li>
+                            <li class="list-inline-item mx-4"><a href="#">Giá vé</a></li>
+                            <li class="list-inline-item mx-4"><a href="#">Hỏi đáp</a></li>
+                            <li class="list-inline-item mx-4"><a href="#">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-12 social-icons">
+                        <a href="#" class="mx-2"><img src="../image/icons/face.png" alt="Facebook"></a>
+                        <a href="#" class="mx-2"><img src="../image/icons/zalo.png" alt="Zalo"></a>
+                        <a href="#" class="mx-2"><img src="../image/icons/youtobe.png" alt="YouTube"></a>
+                        <a href="#" class="mx-4"><img class="image-social" src="../image/icons/chplay.png"
+                                alt="Google Play"></a>
+                        <a href="#" class="mx-1"><img class="image-social" src="../image/icons/appstore.png"
+                                alt="App Store"></a>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-12">
+                        <p>Cơ quan chủ quản: BỘ VĂN HÓA, THỂ THAO VÀ DU LỊCH</p>
+                        <p>Bản quyền thuộc Trung tâm Chiếu phim Quốc gia</p>
+                        <p>Giấy phép số: 224/GP-TTĐT ngày 31/8/2010 - Chịu trách nhiệm: Vũ Đức Tùng - Giám đốc</p>
+                        <p>Địa chỉ: 87 Láng Hạ, Quận Ba Đình, Tp. Hà Nội - Điện thoại: 024.35141791</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright 2023. NCC All Rights Reserved. Dev by Anvui.vn</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
